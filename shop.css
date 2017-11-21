@@ -1,0 +1,196 @@
+body{
+background-color: #f9f7c0;
+    width:100vw;  
+}
+
+.nameTop{
+    background: url(images/logo_nav.svg);
+    float: left;
+}
+
+ul{
+    font-family: Avenir; 
+     list-style-type: none;
+    margin: 0px;
+    padding-left: 20px;
+    overflow: hidden;
+    
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #e68a78;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px 20px;
+    margin-left: 0px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+   color: #55c3c3;
+}
+
+
+#logo{  
+    float: left;
+    width: 80px;
+    height: 50px;
+    margin-top:5px;
+    margin-right: 35px;
+    margin-left: 20px;
+    } 
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 60px;
+  z-index: 99;
+  border: none;
+  outline: none;
+    font-size: 40px;
+    font-family: avenir;
+  background-color: #f9f7c0;
+  color: #e68a78;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+#myBtn:hover {
+  color:#55c3c3;
+}
+
+
+/*@media only screen and (max-width: 800px) {
+    #logo{
+        width: 300px;
+     } */
+
+#shop{
+  margin-top: -570px;
+}
+shop:hover{
+    
+}
+
+#all_photos{
+    margin-top: 100px;
+    height: 4000px;
+    width: 800px;
+    margin-left: 30px;
+}
+
+#red_pants{
+    float: left;
+    height: 400px;
+    margin-right: 40px;
+}
+
+.photos{
+   height: 500px;
+}
+
+#red{
+    font-family: avenir;
+    color: #e68a78;
+    float: left;
+    position: absolute;
+    margin-top: 400px;  
+}
+        
+#maroon{
+font-family: avenir;
+    color: #e68a78;
+    float: left;
+    position: absolute;
+    margin-top: 400px;  
+    margin-left: 335px;
+}
+
+#pink{
+        font-family: avenir;
+    color: #e68a78;
+    float: left;
+    position: absolute;
+    margin-top: 960px;  
+}
+
+
+#eveningDress{
+    float: left;
+    height: 400px;
+}
+
+#pink_dress{
+        float: left;
+    height: 460px;
+    margin-top: 100px;
+}
+
+#asos{
+    margin-top: 100px;
+    margin-left: 40px;
+    float: left;
+    height: 400px;
+    height: 460px;
+}
+
+#asos_text{
+   font-family: avenir;
+    color: #e68a78;
+    float: left;
+    position: absolute;
+    margin-top: 960px;  
+    margin-left: 335px; 
+}
+
+#navy_shirt{
+    margin-top: 100px;
+    float: left;
+    height: 400px;
+}
+
+#navy_shirttext{
+    font-family: avenir;
+    color: #e68a78;
+    float: left;
+    position: absolute;
+    margin-top: 1460px;
+}
+
+#black_dress{
+    margin-top: 100px;
+    float: left;
+    height: 400px;
+      margin-left: 40px;
+}
+
+#black_dress_text{
+    font-family: avenir;
+    color: #e68a78;
+    float: left;
+    position: absolute;
+    margin-top: 1460px;
+    margin-left: 335px;
+}
+
+#navy_dress{
+    margin-top: 100px;
+    float: left;
+    height: 400px;
+      margin-left: 40px;
+}
+
+#navy_dress_text{
+    font-family: avenir;
+    color: #e68a78;
+    float: left;
+    position: absolute;
+    margin-top: 1460px;
+   
+}

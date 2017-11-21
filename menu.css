@@ -1,0 +1,45 @@
+
+body {
+    background-image: url("images/duha.jpg");
+    background-repeat:no-repeat;
+    background-size: 100%;
+    background-color: #00c4c4;
+    width:100vw;
+} 
+
+
+#inspo{
+    float: left;
+    position: absolute;
+    text-align: left;
+   bottom: 30%;
+    width: 100%;
+    left:10%;
+    font-family: avenir;
+    font-size: 30px;
+    color: #e68a78;
+}
+
+
+#shop{
+    text-decoration: none;
+    float: right;
+    position: absolute;
+    text-align: right;
+   bottom: 30%;
+    width: 100%;
+    right:15%;
+    font-family: avenir;
+    font-size: 30px;
+    color: #e68a78;
+}
+shop:hover{
+    
+}
+#container{
+    width: 100%;
+    
+}
+
+
+
