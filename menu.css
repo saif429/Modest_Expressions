@@ -9,10 +9,11 @@ body {
 
 
 #inspo{
+    text-decoration: none;
     float: left;
     position: absolute;
     text-align: left;
-   bottom: 30%;
+    bottom: 30%;
     width: 100%;
     left:10%;
     font-family: avenir;
@@ -20,6 +21,9 @@ body {
     color: #e68a78;
 }
 
+inspo:hover{
+    
+}
 
 #shop{
     text-decoration: none;
